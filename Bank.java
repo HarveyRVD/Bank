@@ -35,11 +35,9 @@ public class Bank {
             }
             while(withdrawnAmount > newBalance);
         }
-        else {
-            System.out.println(withdrawnAmount + "$ was withdrawn from the account.");
-            newBalance = newBalance - withdrawnAmount;
-            System.out.println("The new balance is : " + newBalance);
-        }
+        System.out.println(withdrawnAmount + "$ was withdrawn from the account.");
+        newBalance = newBalance - withdrawnAmount;
+        System.out.println("The new balance is : " + newBalance);
 
 
     }
